@@ -1,0 +1,8 @@
+WS_URL = "wss://ws.bitcoin.com"
+TWS_URL = "wss://tws.bitcoin.com"
+BITSOCKET_URL = "https://bitsocket.bch.sx"
+TBITSOCKET_URL = "https://tbitsocket.bitcoin.com"
+REST_URL = "https://rest.bitcoin.com/v2/"
+TREST_URL = "https://trest.bitcoin.com/v2/"
+BITDB_URL = "https://bitdb.bitcoin.com/"
+TBITDB_URL = "https://tbitdb.bitcoin.com/"

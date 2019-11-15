@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+.tox
+.coverage
+*.pyc
+*.orig
+/.cache
+/.pytest_cache
+/.vscode
+/.idea
+/build
+/dist
+/bitbox-py.egg-info

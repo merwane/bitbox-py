@@ -1,0 +1,12 @@
+asn1crypto==1.2.0
+base58==0.2.5
+bitcash==0.5.2.9
+cashaddress==1.0.4
+certifi==2019.9.11
+cffi==1.13.2
+chardet==3.0.4
+coincurve==13.0.0
+idna==2.8
+pycparser==2.19
+requests==2.22.0
+urllib3==1.25.7
