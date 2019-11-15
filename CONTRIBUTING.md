@@ -10,7 +10,6 @@ Since this repository is a port of [Gabriel Cardona](https://github.com/cgcardon
 
 ### Features you can add:
 * The ability to get BitDB data by query.
-* Crypto utilities (sha1, sha256, ripemd160 etc)
 * ECPair utilities (fromWIF, fromPublicKey etc)
 * HDNode methods (fromSeed, derive etc)
 * Mnemonic methods and utilities

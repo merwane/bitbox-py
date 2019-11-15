@@ -59,7 +59,6 @@ You can find the instructions for contributing on [CONTRIBUTING.md](https://gith
 
 ### Features you can add that aren't implemented yet:
 * The ability to get BitDB data by query.
-* Crypto utilities (sha1, sha256, ripemd160 etc)
 * ECPair utilities (fromWIF, fromPublicKey etc)
 * HDNode methods (fromSeed, derive etc)
 * Mnemonic methods and utilities
