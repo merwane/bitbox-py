@@ -9,5 +9,6 @@ from .mining import Mining
 from .rawtransactions import RawTransactions
 from .transaction import Transaction
 from .bitcoincash import BitcoinCash
+from .crypto import Crypto
 
 name = "bitbox"
