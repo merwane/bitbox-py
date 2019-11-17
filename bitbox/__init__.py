@@ -10,5 +10,6 @@ from .rawtransactions import RawTransactions
 from .transaction import Transaction
 from .bitcoincash import BitcoinCash
 from .crypto import Crypto
+from .script import Script
 
 name = "bitbox"

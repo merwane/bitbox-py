@@ -13,7 +13,6 @@ Since this repository is a port of [Gabriel Cardona](https://github.com/cgcardon
 * ECPair utilities (fromWIF, fromPublicKey etc)
 * HDNode methods (fromSeed, derive etc)
 * Mnemonic methods and utilities
-* OpCodes utilities
 * Schnorr utilities
 * Socket utilities
 * TransactionBuilder methods
