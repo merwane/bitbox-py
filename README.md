@@ -63,7 +63,6 @@ You can find the instructions for contributing on [CONTRIBUTING.md](https://gith
 * HDNode methods (fromSeed, derive etc)
 * Mnemonic methods and utilities
 * Schnorr utilities
-* Socket utilities
 * TransactionBuilder methods
 
 Notes and credits

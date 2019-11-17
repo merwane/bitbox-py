@@ -14,7 +14,6 @@ Since this repository is a port of [Gabriel Cardona](https://github.com/cgcardon
 * HDNode methods (fromSeed, derive etc)
 * Mnemonic methods and utilities
 * Schnorr utilities
-* Socket utilities
 * TransactionBuilder methods
 
 Reporting Bugs

@@ -32,6 +32,7 @@ setuptools.setup(
         install_requires=[
             "requests",
             "cashaddress",
-            "bitcash"
+            "bitcash",
+            "python-socketio[client]"
             ]
         )

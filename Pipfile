@@ -10,6 +10,7 @@ twine = "*"
 requests = "*"
 cashaddress = "*"
 bitcash = "*"
+python-socketio = {extras = ["client"],version = "*"}
 
 [requires]
 python_version = "3.6"

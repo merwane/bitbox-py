@@ -11,5 +11,6 @@ from .transaction import Transaction
 from .bitcoincash import BitcoinCash
 from .crypto import Crypto
 from .script import Script
+from .socket import Socket
 
 name = "bitbox"
