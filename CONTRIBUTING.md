@@ -12,7 +12,7 @@ Since this repository is a port of [Gabriel Cardona](https://github.com/cgcardon
 * The ability to get BitDB data by query.
 * ECPair utilities (fromWIF, fromPublicKey etc)
 * HDNode methods (fromSeed, derive etc)
-* Mnemonic methods and utilities
+* Keypair generation from seed
 * Schnorr utilities
 * TransactionBuilder methods
 

@@ -12,5 +12,6 @@ from .bitcoincash import BitcoinCash
 from .crypto import Crypto
 from .script import Script
 from .socket import Socket
+from .mnemonic import Mnemonic
 
 name = "bitbox"

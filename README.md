@@ -61,7 +61,7 @@ You can find the instructions for contributing on [CONTRIBUTING.md](https://gith
 * The ability to get BitDB data by query.
 * ECPair utilities (fromWIF, fromPublicKey etc)
 * HDNode methods (fromSeed, derive etc)
-* Mnemonic methods and utilities
+* Keypair generation from seed
 * Schnorr utilities
 * TransactionBuilder methods
 
