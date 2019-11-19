@@ -7,10 +7,14 @@ import unicodedata
 class Mnemonic:
     def __init__(self, language):
         self.radix = 2048
-        with open("./wordlist/%s.txt" % (language), "r", encoding="utf-8") as f:
+        with open("%s/%s.txt" % (self._get_directory(), language), "r", encoding="utf-8") as f:
             self.wordlist = [w.strip() for w in f.readlines()]
         if len(self.wordlist) != self.radix:
             raise ConfigurationError("Wordlist should contain %d words, but it contains %d words." % (self.radix, len(self.wordlist)))
+    
+    @classmethod
+    def _get_directory(cls):
+        return os.path.join(os.path.dirname(__file__), "wordlist")
 
     def generate(self, strength=128):
         if strength not in [128, 160, 192, 224, 256]:
