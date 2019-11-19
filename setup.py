@@ -5,7 +5,7 @@ with open("README.md", 'r') as fh:
 
 setuptools.setup(
         name = "bitbox-py",
-        version = "0.0.3",
+        version = "0.0.4",
         author = "Merwane Draï",
         author_email = "contact@merwane.me",
         description = "Gabriel Cardona's Bitbox ported to Python",
@@ -33,6 +33,7 @@ setuptools.setup(
             "requests",
             "cashaddress",
             "bitcash",
-            "python-socketio[client]"
+            "python-socketio[client]",
+            "pywallet"
             ]
         )

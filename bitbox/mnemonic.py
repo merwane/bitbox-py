@@ -2,7 +2,25 @@ import os
 import sys
 import hashlib
 import binascii
+import hmac
 import unicodedata
+from pywallet import wallet
+from bitcash import Key
+
+def b58encode(v):
+    alphabet = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
+    p, acc = 1, 0
+    for c in reversed(v):
+        if sys.version < "3":
+            c = ord(c)
+        acc += p * c
+        p = p << 8
+
+    string = ""
+    while acc:
+        acc, idx = divmod(acc, 58)
+        string = alphabet[idx : idx + 1] + string
+    return string
 
 class Mnemonic:
     def __init__(self, language):
@@ -55,4 +73,30 @@ class Mnemonic:
         passphrase = passphrase.encode("utf-8")
         stretched = hashlib.pbkdf2_hmac("sha512", mnemonic, passphrase, 2048)
         return stretched[:64]
+    
+    @classmethod
+    def to_hd_master_key(cls, seed):
+        if len(seed) != 64:
+            raise ValueError("Provided seed should have length of 64")
+        seed = hmac.new(b"Bitcoin seed", seed, digestmod=hashlib.sha512).digest()
+        xprv = b"\x04\x88\xad\xe4"
+        xprv += b"\x00" * 9
+        xprv += seed[32:]
+        xprv += b"\x00" + seed[:32]
 
+        hashed_xprv = hashlib.sha256(xprv).digest()
+        hashed_xprv = hashlib.sha256(hashed_xprv).digest()
+
+        xprv += hashed_xprv[:4]
+
+        # return base58
+        return b58encode(xprv)
+
+    @classmethod
+    def to_key_pairs(cls, mnemonic):
+        w = wallet.create_wallet(network="bch", seed=mnemonic, children=1)
+        wif = w['wif']
+        key = Key(wif)
+        address = key.address
+        keypair = {"private_key_WIF": wif, "address": address}
+        return keypair
