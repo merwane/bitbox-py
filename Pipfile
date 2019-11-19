@@ -7,11 +7,11 @@ verify_ssl = true
 twine = "*"
 
 [packages]
-requests = "*"
 cashaddress = "*"
 bitcash = "*"
 python-socketio = {extras = ["client"],version = "*"}
 pywallet = "*"
+requests = "*"
 
 [requires]
 python_version = "3.6"
