@@ -14,5 +14,6 @@ from .script import Script
 from .wsocket import Socket
 from .mnemonic import Mnemonic
 from .transactionbuilder import TransactionBuilder
+from .bitdb import BitDB
 
 name = "bitbox"

@@ -5,7 +5,7 @@ with open("README.md", 'r') as fh:
 
 setuptools.setup(
         name = "bitbox-py",
-        version = "0.0.5",
+        version = "0.0.6",
         author = "Merwane Draï",
         author_email = "contact@merwane.me",
         description = "Gabriel Cardona's Bitbox ported to Python",

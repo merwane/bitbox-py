@@ -58,7 +58,6 @@ Contributing
 You can find the instructions for contributing on [CONTRIBUTING.md](https://github.com/merwane/bitbox-py/blob/master/CONTRIBUTING.md).
 
 ### Features you can add that aren't implemented yet:
-* The ability to get BitDB data by query.
 * ECPair utilities (fromWIF, fromPublicKey etc)
 * HDNode methods (fromSeed, derive etc)
 * Schnorr utilities

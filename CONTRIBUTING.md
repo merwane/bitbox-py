@@ -9,7 +9,6 @@ Adding features
 Since this repository is a port of [Gabriel Cardona](https://github.com/cgcardona)'s [Bitbox-sdk](https://github.com/Bitcoin-com/bitbox-sdk), you can find plenty of features you can add that are not ported to Bitbox-py yet. Bitbox-sdk is originaly written in Typescript.
 
 ### Features you can add:
-* The ability to get BitDB data by query.
 * ECPair utilities (fromWIF, fromPublicKey etc)
 * HDNode methods (fromSeed, derive etc)
 * Schnorr utilities

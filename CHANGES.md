@@ -4,6 +4,10 @@ Bitbox-py Changelog
 Here you can see the full list of changes for each Bitbox-py release.
 
 
+Version 0.0.6
+-------------
+- Added BitDB query utilities
+
 Version 0.0.5
 -------------
 - Added basic transactionbuilder utilities
