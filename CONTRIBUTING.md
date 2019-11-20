@@ -13,7 +13,6 @@ Since this repository is a port of [Gabriel Cardona](https://github.com/cgcardon
 * ECPair utilities (fromWIF, fromPublicKey etc)
 * HDNode methods (fromSeed, derive etc)
 * Schnorr utilities
-* TransactionBuilder methods
 
 Reporting Bugs
 --------------

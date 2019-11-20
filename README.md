@@ -62,7 +62,6 @@ You can find the instructions for contributing on [CONTRIBUTING.md](https://gith
 * ECPair utilities (fromWIF, fromPublicKey etc)
 * HDNode methods (fromSeed, derive etc)
 * Schnorr utilities
-* TransactionBuilder methods
 
 Notes and credits
 ------------
