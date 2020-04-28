@@ -62,8 +62,6 @@ You can find the instructions for contributing on [CONTRIBUTING.md](https://gith
 * HDNode methods (fromSeed, derive etc)
 * Schnorr utilities
 
-Notes and credits
+Credits
 ------------
-* [Gabriel Cardona](https://github.com/cgcardona) for creating the original Javascript Bitbox-sdk, and for inspiring me everyday!
-* [Bitcoin.com](https://www.bitcoin.com/) for enabling millions of individuals to use an uncensorable peer-to-peer cash system everyday.
-* [Rosco Kalis](https://github.com/rkalis) for encouraging me to port Bitbox to Python.
+* [Gabriel Cardona](https://github.com/cgcardona) for creating the original Javascript Bitbox-sdk.
